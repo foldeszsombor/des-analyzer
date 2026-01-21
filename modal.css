@@ -1,0 +1,23 @@
+/* Auth Modal */
+.auth-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(10px);
+    z-index: 3000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-box {
+    padding: 3rem;
+    text-align: center;
+    border: 1px solid var(--accent-purple);
+    box-shadow: var(--neon-glow-purple);
+    width: 90%;
+    max-width: 400px;
+}
